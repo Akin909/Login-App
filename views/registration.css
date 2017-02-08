@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background:#66CCFF;
+ /* display: flex;
+ flex-direction:row;*/
+}
+.menu-container {
+    background: #4C4C4C;
+    margin-top:0;
+    padding-right: 1em;
+}
+.menu{
+    list-style-type:none;
+    height: 3em;
+    width:100%;
+    margin: 0;
+} 
+.menu-items{
+    border: solid black 1px;
+    width:10%;
+    height:100%;
+}
+.logo{
+    float: left; 
+    width: auto;
+    font-size: 2em;
+    color: white;
+ }
+ .fields {
+  float: right;
+  margin-right:1em;
+ }
+ .fields>input {
+  width: 100% ;
+ }
+ .registration {
+  background:#B3B3B3;
+  box-shadow:-1px 2px 0px #4C4C4C;
+  width:50%;
+  margin: 3em;
+  padding: 2em 0em;
+  text-align: center;
+
+ }
+ .data {
+  list-style-type:none;
+ }
+ .data-fields {
+  margin:  1em 0em; 
+ }
