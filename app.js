@@ -6,7 +6,7 @@ var path = require ('path');
 var controller = require('./controllers/user.controller')
 
 var port = 8080;
-var db = 'mongodb://localhost:userlogin';
+var db = 'mongodb://localhost/userlogin';
 
  mongoose.connect(db);
 
@@ -18,11 +18,13 @@ app.use(bodyParser.urlencoded({
 }));
 
 
-app.use('/',function(req,res) {
-	res.render('index.html');	
-});
-
 app.post('/',controller.register);
+
+//Causes app to return cannot find module HTML
+// app.use('/',function(req,res) {
+	// res.render('index.html');
+// });
+
 
 
 app.listen(port,function() {

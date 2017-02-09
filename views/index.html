@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Login App</title>
-    <link rel="stylesheet" href="registration.css">
-  </head>
-  <body>
-    <div class="menu-container">
-      <ul class=menu>
-        <form>          
-          <li class="menu-items logo">Capsule</li>
-          <li class="menu-items fields">
-            <input class="email" type="text">
-          </li>
-          <li class="menu-items fields">
-            <input class="password" type="password">
-          </li>
-          <li class="menu-items fields">
-              <input class="submit" type="submit">
-          </li>
-        </form>
-      </ul>
-    </div>
-    <div class="registration">
-      <h1>Create an Account</h1>
-      <ul class="data">
-        <li class="data-fields">
-          <input class="input name data-input" name="username" type="username" placeholder="Username">
-        </li>
-        <li class="data-fields">
-          <input class="data-input" placeholder="Choose a password" type="password">
-        </li>
-        <li class="data-fields">
-          <input class="data-input" placeholder="confirm password" type="password">
-        </li>
-        <li class="data-fields"><input type="submit"></li>
-        
-      </ul>
-    </div>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Login App</title>
+        <link rel="stylesheet" href="registration.css">
+    </head>
+    <body>
+        <div class="menu-container">
+            <ul class=menu>
+                <form>          
+                    <li class="menu-items logo">Capsule</li>
+                    <li class="menu-items fields">
+                        <input class="email" type="text">
+                    </li>
+                    <li class="menu-items fields">
+                        <input class="password" type="password">
+                    </li>
+                    <li class="menu-items fields">
+                        <input class="submit" type="submit">
+                    </li>
+                </form>
+            </ul>
+        </div>
+        <div class="registration">
+            <h1>Create an Account</h1>
+            <!-- The form method determines the type of request -->
+            <ul class="data">
+                <form method="post">
+                    <li class="data-fields">
+                        <input class="input name data-input" name="username" type="username" placeholder="Username">
+                    </li>
+                    <li class="data-fields">
+                        <input class="input email data-input" name="email" type="email" placeholder="Email Address">
+                    </li>
+                    <li class="data-fields">
+                        <input name="password" class="input pass data-input" placeholder="Enter password" required="required" type="password">
+                    </li>
+                    <li class="data-fields"><input value="sign me up" class="inputButton" type="submit">
+                    </li>
+                </form>
+            </ul>
+        </div>
+    </body>
 </html>

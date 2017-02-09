@@ -36,6 +36,10 @@ input {
     border: none;
    border-radius: 15px;
 }
+.success {
+    /* margin: 0 auto; */
+    text-align: center;
+}
 .logo{
     float: left;
     width: auto;
