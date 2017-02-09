@@ -76,6 +76,12 @@ debug@2.2.0, debug@~2.2.0:
   dependencies:
     ms "0.7.1"
 
+debug@2.4.5:
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.4.5.tgz#34c7b12a1ca96674428f41fe92c49b4ce7cd0607"
+  dependencies:
+    ms "0.7.2"
+
 debug@2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.0.tgz#bc596bcabe7617f11d9fa15361eded5608b8499b"
@@ -239,6 +245,12 @@ mongodb@2.2.22:
     es6-promise "3.2.1"
     mongodb-core "2.1.7"
     readable-stream "2.1.5"
+
+mongoose-hidden@^0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/mongoose-hidden/-/mongoose-hidden-0.9.3.tgz#40982bd3212319dad5ffa4d8aa90ebaf52f91ce8"
+  dependencies:
+    debug "2.4.5"
 
 mongoose@^4.8.1:
   version "4.8.1"

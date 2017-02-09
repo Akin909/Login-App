@@ -20,7 +20,6 @@ app.use(bodyParser.urlencoded({
 
 app.post('/',controller.register);
 
-//Causes app to return cannot find module HTML
 // app.use('/',function(req,res) {
 	// res.render('index.html');
 // });
